@@ -80,8 +80,8 @@ var4 =4
 
 res1 = var3 > 2 and var4 > 3
 res2 = var3 > 2 and var4 > 4
-res3 = var3 > 2 and var4 > 4
-res4 = var3 > 2 and var4 > 5
+res3 = var3 > 2 or var4 > 4
+res4 = var3 > 2 or var4 > 5
 res5 = not var3 > var4
 
 print('res1 : ' , res1)
@@ -89,3 +89,5 @@ print('res2 : ' , res2)
 print('res3 : ' , res3)
 print('res4 : ' , res4)
 print('res5 : ' , res5)
+
+
